@@ -1,7 +1,16 @@
 # Capítulo 1
 
-**Lei de LeBlanc**: _depois é igual a nunca_.
+## O que é código limpo?
 
+- funções curtas
+- código expressivo, deixa as intenções do autor claras
+- contexto é explícito
+- elegante
+- não se repete
+- faz o que você espera
+- é lido  com facilidade, simples e direto
+
+**Lei de LeBlanc**: _depois é igual a nunca_.
 
 **Regra de escoteiro**: deixe o acampamento mais limpo
 do que quando você o encontrou.
@@ -11,5 +20,9 @@ do que quando você o encontrou.
 > represented in the code.
 > — Ron Jeffries
 
+Um programador que defende escrever código limpo é tão ético e profissional quanto um médico que segue os procedimentos de higiene
+antes de uma cirurgia.
+
 Passamos 10 vezes mais tempo lendo código do que escrevendo código. Então
 escreva código que seja fácil de _ler_, para que no futuro escrever mais código também seja fácil.
+
