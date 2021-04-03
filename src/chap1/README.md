@@ -10,6 +10,8 @@
 - faz o que você espera
 - é lido  com facilidade, simples e direto
 
+## Algumas reflexões e fatos
+
 **Lei de LeBlanc**: _depois é igual a nunca_.
 
 **Regra de escoteiro**: deixe o acampamento mais limpo
