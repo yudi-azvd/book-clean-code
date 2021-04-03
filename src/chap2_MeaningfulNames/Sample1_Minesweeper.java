@@ -1,10 +1,12 @@
+package chap2_MeaningfulNames;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Use nomes que revelem a intenção.
  */
-public class Minesweeper {
+public class Sample1_Minesweeper {
   List<int[]> theList = new ArrayList<int[]>();
 
   List<int[]> gameBoard = new ArrayList<int[]>();
@@ -62,5 +64,4 @@ public class Minesweeper {
         flaggedCells.add(cell);
     return flaggedCells;
   }
-
 }
