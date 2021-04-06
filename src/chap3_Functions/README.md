@@ -80,7 +80,7 @@ public void delete(Page page) {
   }
 }
 
-private void deletePageAndAllReferences(Page page) throws Exception{ 
+private void deletePageAndAllReferences(Page page) throws Exception { 
   deletePage();
   registry.deleteReference(page.name);
   configKeys.deleteKey(page.name.makeKey());
@@ -90,3 +90,20 @@ private void logError (Exception e) {
   logger.logError(e.getMessage());
 }
 ```
+
+## Como escrever funções assim?
+Escrever programas é como escrever um artigo científico ou jornalístico. Não é no primeiro que rascunho que o texto vai ser agrdável, claro e fácil de ler.
+
+No primeiro rascunho os nomes podem ser ruins, podem haver duplicações, muitos algumentos e um corpo de função longo. Mais um grupo de testes unitários que cobre cada linha de código.
+
+O próximo passo é reescrever essa função extraindo outras funções mais curtas e até mesmo uma classe para dar contexto. Escolher nomes apropriados e etc. Tudo isso enquanto os testes passam.  
+
+_É difícil alguém escrever algo assim na primeira tentativa_.
+
+
+---
+[<< Capítulo 2 - Meaningful Names ](./../chap2_MeaningfulNames/README.md) |
+[Capítulo 4 - Comments >>]()
+
+[• Início](../../README.md)
+
