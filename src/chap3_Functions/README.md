@@ -103,7 +103,7 @@ _É difícil alguém escrever algo assim na primeira tentativa_.
 
 ---
 [<< Capítulo 2 - Meaningful Names ](./../chap2_MeaningfulNames/README.md) |
-[Capítulo 4 - Comments >>]()
+[Capítulo 4 - Comments >>](./../chap4_Comments/README.md)
 
 [• Início](../../README.md)
 

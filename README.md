@@ -8,3 +8,5 @@ eu aprendi.
 [Capítulo 2 - Meaningful Names](./src/chap2_MeaningfulNames/README.md)
 
 [Capítulo 3 - Functions](./src/chap3_Functions/README.md)
+
+[Capítulo 4 - Comments](./src/chap3_Comments/README.md)
