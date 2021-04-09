@@ -10,3 +10,7 @@ eu aprendi.
 [Capítulo 3 - Functions](./src/chap3_Functions/README.md)
 
 [Capítulo 4 - Comments](./src/chap4_Comments/README.md)
+
+[Capítulo 5 - Formatação](./src/chap5_Formatação/README.md)
+
+[Capítulo 6 - Objetos e Estruturas de Dados](./src/chap6_ObjectsAndDataStructures/README.md)
