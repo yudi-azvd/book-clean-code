@@ -82,7 +82,7 @@ Javadocs para código que não é público: desnecessário.
 
 ---
 [<< Capítulo 3 - Functions](./../chap3_Functions/README.md) |
-[Capítulo 5 - Formatting >>]()
+[Capítulo 5 - Formatting >>](./../chap5_Formatting/README.md)
 
 [• Início](../../README.md)
 
