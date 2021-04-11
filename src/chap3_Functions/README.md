@@ -26,7 +26,7 @@ Circle makeCircle(Point center, double radius)
 ```
 
 ## Separação entre Comando e Pedido
-Uma função comumente _faz_ alguma coisa ou _obtem informação_ sobre alguma coisa. Mas quando faz as duas coisas deixas o código confuso
+Uma função comumente _faz_ alguma coisa ou _obtém informação_ sobre alguma coisa. Mas quando faz as duas coisas deixas o código confuso
 
 ```java
 // confuso X(
@@ -68,7 +68,8 @@ try {
 }
 ```
 
-Tratamento de erros/exceções já é **uma coisa**. Se uma função faz tratamento de erros, não deve fazer outra coisa além disso.
+Tratamento de erros/exceções já é **uma coisa**. Se uma função faz tratamento de
+erros, não deve fazer outra coisa além disso.
 
 ```java
 public void delete(Page page) {
@@ -92,17 +93,23 @@ private void logError (Exception e) {
 ```
 
 ## Como escrever funções assim?
-Escrever programas é como escrever um artigo científico ou jornalístico. Não é no primeiro que rascunho que o texto vai ser agrdável, claro e fácil de ler.
+Escrever programas é como escrever um artigo científico ou jornalístico. Não é 
+no primeiro que rascunho que o texto vai ser agradável, claro e fácil de ler.
 
-No primeiro rascunho os nomes podem ser ruins, podem haver duplicações, muitos algumentos e um corpo de função longo. Mais um grupo de testes unitários que cobre cada linha de código.
+No primeiro rascunho os nomes podem ser ruins, podem haver duplicações, muitos 
+argumentos e um corpo de função longo. Mais um grupo de testes unitários que 
+cobre cada linha de código.
 
-O próximo passo é reescrever essa função extraindo outras funções mais curtas e até mesmo uma classe para dar contexto. Escolher nomes apropriados e etc. Tudo isso enquanto os testes passam.  
+O próximo passo é reescrever essa função extraindo outras funções mais curtas e 
+até mesmo uma classe para dar contexto. Escolher nomes apropriados e etc. Tudo 
+isso enquanto os testes passam.  
 
 _É difícil alguém escrever algo assim na primeira tentativa_.
 
 
 ---
-[<< Capítulo 2 - Nomes com Significado ](./../chap2_MeaningfulNames/README.md) |
+[<< Capítulo 2 - Nomes com Significado ](./../chap2_MeaningfulNames/README.md) 
+|
 [Capítulo 4 - Comentários >>](./../chap4_Comments/README.md)
 
 [• Início](../../README.md)

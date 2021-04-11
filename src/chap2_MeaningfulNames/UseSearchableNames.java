@@ -1,6 +1,6 @@
 package chap2_MeaningfulNames;
 
-public class UseSearcheableNames {
+public class UseSearchableNames {
   int s = 0;
   int[] t;
 

@@ -71,17 +71,17 @@ Mais embaixo no mesmo módulo:
 ```java
 String outFile = outputDir + "/" className.replace('.', '/') + ".class";
 FileOutputStream fout = new FileOutputStream(outFile);
-BufferedOutoutStream bos = new BufferedOutputStream(fout);
+BufferedOutputStream bos = new BufferedOutputStream(fout);
 ```
 
 Descobrimos que a intenção original do autor era acessar o caminho absoluto do
 diretório scratch para criar um arquivo scratch com um dado nome. _Isso_ é um 
 **comportamento** razoável para objeto `ctxt`, que permite o objeto esconder
-seus detalhes internos e previnir a função atual de violar a Lei de Demeter.
+seus detalhes internos e prevenir a função atual de violar a Lei de Demeter.
 
 Podemos reescrever o comportamento assim:
 ```java
-BufferedOutoutStream bos = ctxt.createScratchFileStream(classFileName);
+BufferedOutputStream bos = ctxt.createScratchFileStream(classFileName);
 ```
 
 

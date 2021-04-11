@@ -18,6 +18,6 @@ public class Sample2_copy {
   }
 
   public static void main(String[] args) {
-    System.out.println("heeeeeeeeeyy");
+    System.out.println("hey");
   }
 }
