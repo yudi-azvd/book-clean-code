@@ -4,7 +4,7 @@ package chap2_MeaningfulNames;
  * A classe provê contexto para as variáveis number,
  * verb e pluralModifier.
  */
-public class GuessStatistcsMessage {
+public class GuessStatisticsMessage {
   private String number;
   private String verb;
   private String pluralModifier;
@@ -47,7 +47,7 @@ public class GuessStatistcsMessage {
   }
 
   public static void main(String[] args) {
-    String str = new GuessStatistcsMessage().make('h', 0);
+    String str = new GuessStatisticsMessage().make('h', 0);
     System.out.println(str);
   }
 }

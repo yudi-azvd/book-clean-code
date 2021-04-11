@@ -8,7 +8,7 @@ completa do livro.
 ##  Capítulos
 [Capítulo 1 - Código Limpo](./src/chap1_CleanCode/README.md)
 
-[Capítulo 2 - Nomes com Signoficado](./src/chap2_MeaningfulNames/README.md)
+[Capítulo 2 - Nomes com Significado](./src/chap2_MeaningfulNames/README.md)
 
 [Capítulo 3 - Funções](./src/chap3_Functions/README.md)
 
