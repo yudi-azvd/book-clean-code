@@ -17,3 +17,5 @@ completa do livro.
 [Capítulo 5 - Formatação](./src/chap5_Formatação/README.md)
 
 [Capítulo 6 - Objetos e Estruturas de Dados](./src/chap6_ObjectsAndDataStructures/README.md)
+
+[Capítulo 7 - Tratamento de Erros](./src/chap7_ErrorHandling/README.md)
