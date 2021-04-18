@@ -2,7 +2,7 @@
 _Um mal necessário._
 
 O uso de comentário é para compensar pela falha em nos expressar bem através de 
-código. Cometnário é uma *_falha_*.
+código. Comentário é uma *_falha_*.
 
 Antes de escrever um comentário, reescreva o código.
 
@@ -35,7 +35,7 @@ está fazendo.
 `// TODO` é aceitável, desde que isso não seja usado como desculpa para deixar 
 código mal escrito na code base.
 
-Comentários para ressaltar a importância de certeos trechos de código que 
+Comentários para ressaltar a importância de certos trechos de código que 
 outra forma passariam por inconsequentes.
 
 Comentários para documentação pública.
@@ -66,7 +66,7 @@ mal escrito.
 **Não deixe sobreviver código comentado**. Outros que veem código comentado não
 têm a coragem para apagá-los por que dão a impressão que ainda são importantes.
 
-Comentários que adicionam informações que que não pertecem ao contexto onde ele
+Comentários que adicionam informações que que não pertencem ao contexto onde ele
 se localiza.
 
 Comentários óbvios.

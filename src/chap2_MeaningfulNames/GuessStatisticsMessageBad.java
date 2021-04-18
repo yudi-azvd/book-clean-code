@@ -4,9 +4,9 @@ package chap2_MeaningfulNames;
 /**
  * No listing original, o método {@link printGuessStatistics}
  * nem estava dentro de uma classe,  por isso foi mostrado como
- * um exemplo de variáveis sem contexo.
+ * um exemplo de variáveis sem contexto.
  */
-public class GuessStatistcsMessageBad {
+public class GuessStatisticsMessageBad {
   private static void printGuessStatistics(char candidate, int count) {
     String number;
     String verb;
