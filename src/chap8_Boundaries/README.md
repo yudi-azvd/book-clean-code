@@ -9,12 +9,16 @@ aplicação **nas fronteiras** do sistema.
 
 ## Aprendendo e explorando fronteiras
 Usamos códigos de terceiros para economizar tempo. Mas entender esse código é
-difícil. Difícil também é integrar no sistema.
+difícil. Difícil também é integrá-lo no sistema.
 
 **Testes de aprendizado**: chamamos o código como esperamos que ele funciona
 no nosso sistema.
 
-
+Exemplo na suite de testes [LogTest.java](LogTest.java). Testes de aprendizado 
+verificam se entendemos corretamente o funcionamento da biblioteca. 
+Se houver um novo lançamento no futuro, podemos verificar se o comportamento 
+mudou executando a suite novamente. _Se houver breaking changes saberemos_
+_prontamente_.
 
 ## Fronteiras limpas
 Quando usamos códigos de terceiros temos que garantir que as mudanças 
