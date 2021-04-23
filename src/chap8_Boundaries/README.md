@@ -20,6 +20,16 @@ Se houver um novo lançamento no futuro, podemos verificar se o comportamento
 mudou executando a suite novamente. _Se houver breaking changes saberemos_
 _prontamente_.
 
+
+## Usando código que não existe ainda
+Estávamos lidando com a fronteira entre o nosso código e o de terceiros. Existe 
+outra fronteira que está entre o que sabemos e o que não sabemos: o código que 
+temos agora e o código que será implementado no futuro.
+
+Imagina como você _quer_ que seja a interface e faça o seu código interagir com 
+essa interface.
+
+
 ## Fronteiras limpas
 Quando usamos códigos de terceiros temos que garantir que as mudanças 
 que ocorrerem no futuro não sejam muito custosas. Nosso código não deve saber

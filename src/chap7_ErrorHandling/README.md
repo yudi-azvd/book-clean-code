@@ -134,7 +134,7 @@ robusto.
 
 [<< Capítulo 6 - Objetos e Estruturas de Dados](./../chap6_ObjectsAndDataStructures/README.md) 
 |
-[>> Capítulo 8 - Limites](./../chap8_Boundaries/README.md)
+[>> Capítulo 8 - Fronteiras](./../chap8_Boundaries/README.md)
 
 [• Início](../../README.md)
 

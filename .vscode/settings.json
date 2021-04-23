@@ -36,6 +36,10 @@
     "Jeffries",
     "ctxt",
     "fout",
+    "ilities",
     "unclebob"
+  ],
+  "java.project.sourcePaths": [
+    "src"
   ]
 }

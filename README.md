@@ -19,3 +19,7 @@ completa do livro.
 [Capítulo 6 - Objetos e Estruturas de Dados](./src/chap6_ObjectsAndDataStructures/README.md)
 
 [Capítulo 7 - Tratamento de Erros](./src/chap7_ErrorHandling/README.md)
+
+[Capítulo 8 - Fronteiras](./src/chap8_Boundaries/README.md)
+
+[Capítulo 9 - Testes Unitários](./src/chap9_UnitTests/README.md)
