@@ -1,5 +1,5 @@
 {
-  "cSpell.language": "en,pt-BR,pt",
+  "cSpell.language": "en,pt,pt-PT",
   "cSpell.enableFiletypes": [
     "!asciidoc",
     "!c",
@@ -41,5 +41,6 @@
   ],
   "java.project.sourcePaths": [
     "src"
-  ]
+  ],
+  "cSpell.enabled": true
 }
