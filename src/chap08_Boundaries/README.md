@@ -42,9 +42,9 @@ que usamos para a interface provida.
 
 ---
 
-[<< Capítulo 7 - Tratamento de Erros](./../chap7_ErrorHandling/README.md)
+[<< Capítulo 7 - Tratamento de Erros](./../chap07_ErrorHandling/README.md)
 |
-[<< Capítulo 9 - Testes Unitários](./../chap9_UnitTests/README.md)
+[<< Capítulo 9 - Testes Unitários](./../chap09_UnitTests/README.md)
 
 [• Início](../../README.md)
 

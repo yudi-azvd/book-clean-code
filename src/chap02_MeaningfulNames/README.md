@@ -2,7 +2,7 @@
 
 [Capítulo 1 - Clean Code](../chap1_CleanCode/README.md)
 |
-[Capítulo 3 - Functions](../chap3_Functions/README.md)
+[Capítulo 3 - Functions](../chap03_Functions/README.md)
 
 
 ---  -->
@@ -43,7 +43,7 @@ Escolha apenas uma entre `controller`, `driver` e `manager`.
 --- 
 [<< Capítulo 1 - Código Limpo](../chap1_CleanCode/README.md)
 |
-[Capítulo 3 - Funções >>](../chap3_Functions/README.md)
+[Capítulo 3 - Funções >>](../chap03_Functions/README.md)
 
 [• Início](../../README.md)
 

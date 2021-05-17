@@ -1,4 +1,4 @@
-package chap8_Boundaries;
+package chap08_Boundaries;
 
 import org.apache.log4j.ConsoleAppender;
 import org.apache.log4j.Logger;

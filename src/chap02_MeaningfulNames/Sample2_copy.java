@@ -1,4 +1,4 @@
-package chap2_MeaningfulNames;
+package chap02_MeaningfulNames;
 
 public class Sample2_copy {
   public static void copyChars(char a1[], char a2[]) {

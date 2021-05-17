@@ -92,7 +92,7 @@ Geralmente uma única classe de exceção é o suficiente para uma área.
 
 
 ## Defina o fluxo normal
-(Não achei interessante ou tava com preguiça de ler essa parte.)
+(Não achei interessante ou estava com preguiça de ler essa parte.)
 
 
 ## Não retorne null
@@ -132,9 +132,9 @@ robusto.
 ---
 
 
-[<< Capítulo 6 - Objetos e Estruturas de Dados](./../chap6_ObjectsAndDataStructures/README.md) 
+[<< Capítulo 6 - Objetos e Estruturas de Dados](./../chap06_ObjectsAndDataStructures/README.md) 
 |
-[>> Capítulo 8 - Fronteiras](./../chap8_Boundaries/README.md)
+[>> Capítulo 8 - Fronteiras](./../chap08_Boundaries/README.md)
 
 [• Início](../../README.md)
 

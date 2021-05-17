@@ -108,9 +108,9 @@ _É difícil alguém escrever algo assim na primeira tentativa_.
 
 
 ---
-[<< Capítulo 2 - Nomes com Significado ](./../chap2_MeaningfulNames/README.md) 
+[<< Capítulo 2 - Nomes com Significado ](./../chap02_MeaningfulNames/README.md) 
 |
-[Capítulo 4 - Comentários >>](./../chap4_Comments/README.md)
+[Capítulo 4 - Comentários >>](./../chap04_Comments/README.md)
 
 [• Início](../../README.md)
 

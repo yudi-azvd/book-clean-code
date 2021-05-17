@@ -1,4 +1,4 @@
-package chap2_MeaningfulNames;
+package chap02_MeaningfulNames;
 
 import java.util.ArrayList;
 import java.util.List;

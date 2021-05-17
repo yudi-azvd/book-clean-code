@@ -1,4 +1,4 @@
-package chap7_ErrorHandling;
+package chap07_ErrorHandling;
 
 import java.io.FileReader;
 import java.io.IOException;

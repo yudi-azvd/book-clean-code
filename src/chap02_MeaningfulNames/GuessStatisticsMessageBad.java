@@ -1,4 +1,4 @@
-package chap2_MeaningfulNames;
+package chap02_MeaningfulNames;
 
 
 /**

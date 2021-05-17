@@ -100,8 +100,8 @@ Bons desenvolvedores de software sabem quando é melhor usar um ou outro.
 
 
 ---
-[<< Capítulo 5 - Formatação](./../chap5_Formatting/README.md) 
+[<< Capítulo 5 - Formatação](./../chap05_Formatting/README.md) 
 |
-[>> Capítulo 7 - Tratamento de Erros](./../chap7_ErrorHandling/README.md)
+[>> Capítulo 7 - Tratamento de Erros](./../chap07_ErrorHandling/README.md)
 
 [• Início](../../README.md)

@@ -86,7 +86,7 @@ código de produção.
 ---
 
 
-[<< Capítulo 8 - Fronteiras](./../chap8_Boundaries/README.md)
+[<< Capítulo 8 - Fronteiras](./../chap08_Boundaries/README.md)
 |
 [<< Capítulo 10 - ---](./../chap10_Classes/README.md)
 
