@@ -1,6 +1,6 @@
 # Capítulo 3 - Funções
 
-A primeira regra de funções é que eles devem ser pequenas. A segunda regra é que elas devem ser menor que isso.
+A primeira regra de funções é que elas devem ser pequenas. A segunda regra é que elas devem ser menores que isso.
 
 > FUNCTIONS SHOULD DO ONE THING. THEY SHOULD DO IT WELL.
 > THEY SHOULD DO IT ONLY.
@@ -26,7 +26,7 @@ Circle makeCircle(Point center, double radius)
 ```
 
 ## Separação entre Comando e Pedido
-Uma função comumente _faz_ alguma coisa ou _obtém informação_ sobre alguma coisa. Mas quando faz as duas coisas deixas o código confuso
+Uma função comumente _faz_ alguma coisa ou _obtém informação_ sobre alguma coisa. Mas quando faz as duas coisas deixas o código confuso:
 
 ```java
 // confuso X(
