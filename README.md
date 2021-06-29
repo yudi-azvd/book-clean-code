@@ -23,3 +23,9 @@ completa do livro.
 [Capítulo 8 - Fronteiras](./src/chap08_Boundaries/README.md)
 
 [Capítulo 9 - Testes Unitários](./src/chap09_UnitTests/README.md)
+
+[Capítulo 10 - Classes](./src/chap10_Classes/README.md)
+
+[Capítulo 11 - Sistemas](./src/chap11_Systems/README.md) (incompleto)
+
+[Capítulo 12 - Emersão](./src/chap12_Emergence/README.md) (incompleto)

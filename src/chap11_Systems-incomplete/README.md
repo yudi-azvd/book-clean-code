@@ -8,7 +8,6 @@ separar os detalhes de construção da aplicação.
 
 [<< Capítulo 10 - Classes](./../chap10_Classes/README.md)
 |
-<!-- [Capítulo 12 - Emersão >>](./../chap12_Emergence/README.md) -->
+[Capítulo 12 - Emersão >>](./../chap12_Emergence/README.md)
 
 [• Início](../../README.md)
-
