@@ -29,3 +29,7 @@ completa do livro.
 [Capítulo 11 - Sistemas](./src/chap11_Systems/README.md) (incompleto)
 
 [Capítulo 12 - Emersão](./src/chap12_Emergence/README.md)
+
+Capítulo 13 - Simultaneidade (não lido)
+
+[Capítulo 14 - Refinamento Sucessivo](./src/chap14_SuccessiveRefinement/README.md)

@@ -1,0 +1,49 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch GuessStatisticsMessage",
+      "request": "launch",
+      "mainClass": "chap02_MeaningfulNames.GuessStatisticsMessage",
+      "projectName": "clean-code_21902013"
+    },
+    {
+      "type": "java",
+      "name": "Launch GuessStatisticsMessageBad",
+      "request": "launch",
+      "mainClass": "chap02_MeaningfulNames.GuessStatisticsMessageBad",
+      "projectName": "clean-code_21902013"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sample2_copy",
+      "request": "launch",
+      "mainClass": "chap02_MeaningfulNames.Sample2_copy",
+      "projectName": "clean-code_21902013"
+    },
+    {
+      "type": "java",
+      "name": "Launch Class3",
+      "request": "launch",
+      "mainClass": "chap07_ErrorHandling.Class3",
+      "projectName": "clean-code_21902013"
+    },
+    {
+      "type": "java",
+      "name": "Launch UseOfArgs",
+      "request": "launch",
+      "mainClass": "chap14_SuccessiveRefinement.args_v1.UseOfArgs",
+      "projectName": "clean-code_21902013",
+    }
+  ]
+}
