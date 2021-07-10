@@ -8,7 +8,7 @@
 
 
 ## Executa todos os testes
-...
+É bem claro.
 
 
 ## Não contém duplicação

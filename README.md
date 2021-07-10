@@ -28,4 +28,4 @@ completa do livro.
 
 [Capítulo 11 - Sistemas](./src/chap11_Systems/README.md) (incompleto)
 
-[Capítulo 12 - Emersão](./src/chap12_Emergence/README.md) (incompleto)
+[Capítulo 12 - Emersão](./src/chap12_Emergence/README.md)
