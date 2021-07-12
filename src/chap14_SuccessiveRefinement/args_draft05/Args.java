@@ -24,7 +24,7 @@ public class Args {
   private String errorParameter = "";
 
   enum ErrorCode {
-    OK, MISSING_STRING, MISSING_INTEGER
+    OK, MISSING_STRING, MISSING_INTEGER, INVALID_INTEGER
   }
 
   public Args(String schema, String[] args) throws ParseException, ArgsException {
@@ -205,6 +205,8 @@ public class Args {
           return String.format("Could not find string parameter for -%c", errorArgumentId);
         case MISSING_INTEGER:
           return String.format("Could not find int parameter for -%c", errorArgumentId);
+        case INVALID_INTEGER:
+          return String.format("Argument -%c expects an integer but was '$s'", errorArgumentId, errorParameter);
         case OK:
           throw new Exception("TILT: should not get here");
       }
