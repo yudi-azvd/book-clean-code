@@ -1,6 +1,9 @@
-package chap14_SuccessiveRefinement.args_draft4;
+package chap14_SuccessiveRefinement.args_draft02;
 
 
+/**
+ * BOOLEAN and STRING only
+ */
 public class UseOfArgs {
   public static void main(String[] args) {
     String[] realArgs = "-l -f -s yamane".split(" ");
