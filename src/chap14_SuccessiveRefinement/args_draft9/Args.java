@@ -1,4 +1,4 @@
-package chap14_SuccessiveRefinement.args_roughdraft;
+package chap14_SuccessiveRefinement.args_draft9;
 
 import java.text.ParseException;
 import java.util.HashMap;
@@ -39,8 +39,7 @@ public class Args {
     parseSchema();
     try {
       parseArguments();
-    } catch (ArgsException e) {
-    } 
+    } catch (ArgsException e) {} 
     return valid;
   }
 
