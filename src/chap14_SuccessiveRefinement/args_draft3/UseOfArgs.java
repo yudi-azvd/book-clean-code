@@ -1,24 +1,22 @@
 package chap14_SuccessiveRefinement.args_draft3;
 
 
-/**
- * BOOLEAN and STRING only
- */
 public class UseOfArgs {
   public static void main(String[] args) {
-    String[] realArgs = "-l -f -s yamane".split(" ");
+    String[] realArgs = "-l -p 8080 -d /tmp/ ".split(" ");
 
     try {
       // deveria ser args, mas realArgs fica mais fácil de "testar"
-      Args arg = new Args("l,f,s*", realArgs);
+      Args arg = new Args("l,p#,d*", realArgs);
       boolean logging = arg.getBoolean('l');
-      boolean fSomething = arg.getBoolean('f');
-      String surname = arg.getString('s');
+      // int logging = arg.getInt('l');
+      int port = arg.getInt('p');
+      String directory = arg.getString('d');
+      // String[] words = arg.getStringArray('w');
 
-      System.out.println("has s " + arg.has('s'));
       System.out.printf(
-        "\n\nlogging %b | f %b | surname [%s]\n", 
-        logging, fSomething, surname);
+        "\n\nlogging %b | port %d | directory %s\n", 
+        logging, port, directory);
     } 
     catch (Exception e) {
       e.printStackTrace();
