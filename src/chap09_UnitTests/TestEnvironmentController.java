@@ -9,6 +9,7 @@ import org.junit.Test;
 /**
  * Esse teste não deve ser executado de verdade.
  */
+@Ignore
 public class TestEnvironmentController {
   static final double WAY_TOO_COLD = 0;
   static HW hw = new HW();
