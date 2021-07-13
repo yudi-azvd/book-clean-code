@@ -9,10 +9,10 @@ public class UseOfArgs {
       Args arg = new Args("l,f,s*,i#", realArgs);
       boolean logging = arg.getBoolean('l');
       boolean fSomething = arg.getBoolean('f');
-      int integer = 0; //arg.getInteger('i');
+      int integer = arg.getInt('i');
       String surname = arg.getString('s');
 
-      System.out.println("has i " + arg.has('i'));
+      System.out.println("has i " + arg.has('i') + " | has s " + arg.has('s'));
       System.out.printf(
         "\n\nlogging %b | f %b | surname [%s] | integer %d\n", 
         logging, fSomething, surname, integer);

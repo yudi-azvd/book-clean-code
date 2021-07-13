@@ -1,11 +1,14 @@
 package chap09_UnitTests;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
  * Esse teste não deve ser executado de verdade.
  */
+@Ignore
 public class TestEnvironmentControllerRefactored {
   static final double WAY_TOO_COLD = 0;
   static HW hw = new HW();

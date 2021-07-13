@@ -8,6 +8,13 @@
       "type": "java",
       "name": "Launch UseOfArgs",
       "request": "launch",
+      "mainClass": "chap14_SuccessiveRefinement.args_draft06.UseOfArgs",
+      "projectName": "clean-code_21902013"
+    },
+    {
+      "type": "java",
+      "name": "Launch UseOfArgs",
+      "request": "launch",
       "mainClass": "chap14_SuccessiveRefinement.args_draft4.UseOfArgs",
       "projectName": "clean-code_21902013"
     },
