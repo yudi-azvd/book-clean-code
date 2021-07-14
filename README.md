@@ -33,3 +33,5 @@ completa do livro.
 Capítulo 13 - Simultaneidade (não lido)
 
 [Capítulo 14 - Refinamento Sucessivo](./src/chap14_SuccessiveRefinement/README.md)
+
+[Capítulo 15 - Entranhas do JUnit](./src/chap15_JUnitInternals/README.md)
