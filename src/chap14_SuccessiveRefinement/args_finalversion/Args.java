@@ -94,6 +94,10 @@ public class Args {
     return argsFound.contains(arg);
   }
 
+  public int cardinality() {
+    return argsFound.size();
+  }
+
   public int nextArgument() {
     return currentArgument.nextIndex();
   }
@@ -108,6 +112,10 @@ public class Args {
 
   public int getInt(char arg) {
     return IntegerArgumentMarshaler.getValue(marshalers.get(arg));
+  }
+  
+  public double getDouble(char arg) {
+    return DoubleArgumentMarshaler.getValue(marshalers.get(arg));
   }
   
   public String[] getStringArray(char arg) {

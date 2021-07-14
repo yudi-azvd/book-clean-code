@@ -1,11 +1,9 @@
-package chap14_SuccessiveRefinement.args_finalversion;
-
-import static chap14_SuccessiveRefinement.args_finalversion.ArgsException.ErrorCode.*;
+package chap14_SuccessiveRefinement.args_draft08;
 
 public class ArgsException extends Exception {
   private char errorArgumentId = '\0';
-  private String errorParamenter = null;
-  private ErrorCode errorCode = OK;
+  private String errorParameter = null;
+  private ErrorCode errorCode = ErrorCode.OK;
 
   public ArgsException() {}
 
@@ -17,12 +15,12 @@ public class ArgsException extends Exception {
 
   public ArgsException(ErrorCode code, String errorParameter) {
     this.errorCode = code;
-    this.errorParamenter = errorParameter;
+    this.errorParameter = errorParameter;
   }
 
   public ArgsException(ErrorCode code, char errorArgumentId, String errorParameter) {
     this.errorCode = code;
-    this.errorParamenter = errorParameter;
+    this.errorParameter = errorParameter;
     this.errorArgumentId = errorArgumentId;
   }
 
@@ -34,12 +32,12 @@ public class ArgsException extends Exception {
     this.errorArgumentId = errorArgumentId;
   }
 
-  public String getErrorParameter() {
-    return errorParamenter;
+  public String getErrorParamenter() {
+    return errorParameter;
   }
 
   public void setErrorParameter(String errorParameter) {
-    this.errorParamenter = errorParameter;
+    this.errorParameter = errorParameter;
   }
 
   public ErrorCode getErrorCode() {
@@ -48,6 +46,10 @@ public class ArgsException extends Exception {
 
   public void setErrorCode(ErrorCode errorCode) {
     this.errorCode = errorCode;
+  }
+
+  public String getErrorParameter() {
+    return errorParameter;
   }
 
   public String errorMessage() {
@@ -59,26 +61,23 @@ public class ArgsException extends Exception {
       case MISSING_STRING:
         return String.format("Could not find string parameter for -%c.", errorArgumentId);
       case INVALID_INTEGER:
-        return String.format("Argument -%c expects integer but was '%s'.", errorArgumentId, errorParamenter);
+        return String.format("Argument -%c expects integer but was '%s'.", errorArgumentId, errorParameter);
       case MISSING_INTEGER:
         return String.format("Could not find integer parameter for -%c.", errorArgumentId);
       case INVALID_DOUBLE:
-        return String.format("Argument -%c expects double but was '%s'.", errorArgumentId, errorParamenter);
+        return String.format("Argument -%c expects double but was '%s'.", errorArgumentId, errorParameter);
       case MISSING_DOUBLE:
         return String.format("Could not find double parameter for -%c.", errorArgumentId);
-      case INVALID_ARGUMENT_NAME:
-        return String.format("'%c' is not a valid argument name.", errorArgumentId);
-      case INVALID_ARGUMENT_FORMAT:
-        return String.format("'%c' is not a valid argument format.", errorArgumentId);
+      // case INVALID_ARGUMENT_NAME:
+      //   return String.format("'%c' is not a valid argument name.", errorArgumentId);
+      // case INVALID_ARGUMENT_FORMAT:
+      //   return String.format("'%c' is not a valid argument format.", errorArgumentId);
     }
 
     return "";
   }
 
   public enum ErrorCode {
-    OK, INVALID_ARGUMENT_FORMAT, UNEXPECTED_ARGUMENT, INVALID_ARGUMENT_NAME,
-    MISSING_STRING,
-    MISSING_INTEGER, INVALID_INTEGER,
-    MISSING_DOUBLE, INVALID_DOUBLE
+    OK, MISSING_STRING, MISSING_INTEGER, INVALID_INTEGER, UNEXPECTED_ARGUMENT, MISSING_DOUBLE, INVALID_DOUBLE
   }
 }
