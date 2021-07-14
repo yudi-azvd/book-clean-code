@@ -1,7 +1,5 @@
 package chap14_SuccessiveRefinement.args_draft07;
 
-import static chap14_SuccessiveRefinement.args_draft07.ArgsException.ErrorCode;
-
 import java.text.ParseException;
 import java.util.*;
 
@@ -26,6 +24,10 @@ public class Args {
   private char errorArgumentId = '\0';
   private ErrorCode errorCode = ErrorCode.OK;
   private String errorParameter = "";
+
+  private enum ErrorCode {
+    MISSING_STRING, MISSING_INTEGER, INVALID_INTEGER, OK,
+  }
 
   public Args(String schema, String[] args) throws ParseException, ArgsException {
     this.schema = schema;
