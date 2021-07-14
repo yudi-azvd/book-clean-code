@@ -124,50 +124,24 @@ public class Args {
 
   private boolean setArgument(char argChar) throws ArgsException {
     ArgumentMarshaler m = marshalers.get(argChar);
+    if (m == null)
+      return false;
+
     try {
-      if (m instanceof BooleanArgumentMarshaler)
-        setBooleanArg(m);
-      else if (m instanceof StringArgumentMarshaler)
-        setStringArg(m);
-      else if (m instanceof IntegerArgumentMarshaler)
-        setIntArg(m);
-      else
-        return false;
+      // if (m instanceof BooleanArgumentMarshaler)
+      //   m.set(currentArgument);
+      //   // setBooleanArg(m, currentArgument);
+      // else if (m instanceof StringArgumentMarshaler)
+      //   setStringArg(m);
+      //   // m.set(currentArgument);
+      // else if (m instanceof IntegerArgumentMarshaler)
+      //   m.set(currentArgument);
+      // setIntArg(m);
+      m.set(currentArgument);
+      return true;
     } catch (ArgsException e) {
       valid = false;
       errorArgumentId = argChar;
-      throw e;
-    }
-    return true;
-  }
-
-  private void setStringArg(ArgumentMarshaler m) throws ArgsException {
-    try {
-      m.set(currentArgument.next());
-    } catch (ArrayIndexOutOfBoundsException e) {
-      errorCode = ErrorCode.MISSING_STRING;
-      throw new ArgsException();
-    }
-  }
-
-  private void setBooleanArg(ArgumentMarshaler m) {
-    try {
-      m.set("true"); 
-    } catch (ArgsException e) {}
-  }
-
-  private void setIntArg(ArgumentMarshaler m) throws ArgsException {
-    String parameter = null;
-    try {
-      parameter = currentArgument.next();
-      m.set(parameter);
-    } catch (NoSuchElementException e) {
-      errorCode = ErrorCode.MISSING_INTEGER;
-      throw new ArgsException();
-    }
-    catch (ArgsException e) {
-      errorParameter = parameter;
-      errorCode = ErrorCode.INVALID_INTEGER;
       throw e;
     }
   }
@@ -243,15 +217,15 @@ public class Args {
     return argsFound.contains(arg);
   }
 
-  private abstract class ArgumentMarshaler {
-    public abstract Object get();
-    public abstract void set(String s) throws ArgsException;
+  private interface ArgumentMarshaler {
+    public Object get();
+    public void set(Iterator<String> currentArgument) throws ArgsException;
   }
 
-  private class BooleanArgumentMarshaler extends ArgumentMarshaler {
+  private class BooleanArgumentMarshaler implements ArgumentMarshaler {
     private boolean booleanValue = false;
 
-    public void set(String s) {
+    public void set(Iterator<String> currentArgument) throws ArgsException {
       booleanValue = true;
     }
 
@@ -260,11 +234,16 @@ public class Args {
     }
   }
   
-  private class StringArgumentMarshaler extends ArgumentMarshaler {
+  private class StringArgumentMarshaler implements ArgumentMarshaler {
     private String stringValue = "";
 
-    public void set(String s) {
-      stringValue = s;
+    public void set(Iterator<String> currentArgument) throws ArgsException {
+      try {
+        stringValue = currentArgument.next();
+      } catch (NoSuchElementException e) {
+        errorCode = ErrorCode.MISSING_STRING;
+        throw new ArgsException();
+      }
     }
 
     public Object get() {
@@ -272,13 +251,22 @@ public class Args {
     }
   }
   
-  private class IntegerArgumentMarshaler extends ArgumentMarshaler {
+  private class IntegerArgumentMarshaler implements ArgumentMarshaler {
     private int intValue = 0;
 
-    public void set(String s) throws ArgsException {
+    public void set(Iterator<String> currentArgument) throws ArgsException {
+      String parameter = null;
       try {
-        intValue = Integer.parseInt(s);
-      } catch (NumberFormatException e) {
+        parameter = currentArgument.next();
+        intValue = Integer.parseInt(parameter);
+      } 
+      catch (NoSuchElementException e) {
+        errorCode = ErrorCode.MISSING_INTEGER;
+        throw new ArgsException();
+      }
+      catch (NumberFormatException e) {
+        errorParameter = parameter;
+        errorCode = ErrorCode.INVALID_INTEGER;
         throw new ArgsException();
       }
     }
