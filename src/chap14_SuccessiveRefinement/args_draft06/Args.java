@@ -51,8 +51,10 @@ public class Args {
 
   private boolean parseSchema() throws ParseException {
     for (String element : schema.split(",")) {
-      String trimmedElement = element.trim();
-      parseSchemaElement(trimmedElement);
+      if (element.length() > 0) {
+        String trimmedElement = element.trim();
+        parseSchemaElement(trimmedElement);
+      }
     }
 
     return true;
