@@ -18,7 +18,7 @@ _mais detalhes_.
 
 
 ---
-[<< Capítulo 4 - Funções](./../chap4_Comments/README.md) |
-[Capítulo 6 - Objetos e Estruturas de Dados >>](./../chap6_ObjectsAndDataStructures/README.md)
+[<< Capítulo 4 - Funções](./../chap04_Comments/README.md) |
+[Capítulo 6 - Objetos e Estruturas de Dados >>](./../chap06_ObjectsAndDataStructures/README.md)
 
 [• Início](../../README.md)

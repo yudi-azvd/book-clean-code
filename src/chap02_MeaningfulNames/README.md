@@ -1,13 +1,3 @@
-<!-- [Início](../../README.md)
-
-[Capítulo 1 - Clean Code](../chap1_CleanCode/README.md)
-|
-[Capítulo 3 - Functions](../chap03_Functions/README.md)
-
-
----  -->
-
-
 # Capítulo 2 - Nomes com significado
 
 - Nomes abreviados são uma má ideia.
@@ -41,7 +31,7 @@ Escolha apenas uma entre `fetch`, `retrieve` e `get`.
 Escolha apenas uma entre `controller`, `driver` e `manager`.
 
 --- 
-[<< Capítulo 1 - Código Limpo](../chap1_CleanCode/README.md)
+[<< Capítulo 1 - Código Limpo](../chap01_CleanCode/README.md)
 |
 [Capítulo 3 - Funções >>](../chap03_Functions/README.md)
 
